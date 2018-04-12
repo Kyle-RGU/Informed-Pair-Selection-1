@@ -5,25 +5,25 @@ Siamese Neural Networks (SNNs) are deep metric learners that use paired instance
 
 
 ### Purpose
-This online code repository exists to assist in reproducibility of experiments for PKDD-ECML 2018.
+This online code repository exists to assist in reproducibility of experiments for [ECML-PKDD 2018](http://www.ecmlpkdd2018.org/).
 
 Each experiment has been completed using Python 2.7 and Keras version 1.2.0 - though minimum adaptation could ensure compatibility with Python 3 and Keras 2.0 or above respectively.
 
 
 ### Key
-Each python file corresponds to an algorithm discussed in the paper. To consolidate the names of the algorithm, a key is provided below.
+Each python file corresponds to one of the algorithms discussed in the paper. To consolidate the names of the algorithm, a key is provided below.
 
-  Base.py = Base
+  [Base.py](https://github.com/Kyle-RGU/Informed-Pair-Selection/blob/master/Informed%20Pair%20Selection/SNN_Base.py) = Base
   
-  Base_Ordered.py = Base*
+  [Base_Ordered.py](https://github.com/Kyle-RGU/Informed-Pair-Selection/blob/master/Informed%20Pair%20Selection/SNN_Base_Ordered.py) = Base*
   
-  Dyne.py = DynE
+  [Dyne.py](https://github.com/Kyle-RGU/Informed-Pair-Selection/blob/master/Informed%20Pair%20Selection/SNN_Dyne.py) = DynE
   
-  Dyne_Ordered.py = DynE*
+  [Dyne_Ordered.py](https://github.com/Kyle-RGU/Informed-Pair-Selection/blob/master/Informed%20Pair%20Selection/SNN_Dyne_Ordered.py) = DynE*
   
-  Dynee.py = DynEE
+  [Dynee.py](https://github.com/Kyle-RGU/Informed-Pair-Selection/blob/master/Informed%20Pair%20Selection/SNN_Dynee.py) = DynEE
   
-  Dynee_Ordered.py = DynEE*
+  [Dynee_Ordered.py](https://github.com/Kyle-RGU/Informed-Pair-Selection/blob/master/Informed%20Pair%20Selection/SNN_Dynee_Ordered.py) = DynEE*
   
 
 ### Datasets
@@ -32,5 +32,7 @@ We have also attached here the LMRD dataset used, as well as our specific Doc2Ve
 Though we have not included the MNIST or SelfBACK datasets in this repository, these are easily available at the following sources:
 
   MNIST - Load from Keras
+  
+    from keras.datasets import mnist
   
   SelfBACK - https://github.com/selfback/activity-recognition
